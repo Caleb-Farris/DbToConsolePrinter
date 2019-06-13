@@ -1,9 +1,9 @@
 # DbToConsolePrinter
 Application for Code Test
 
-The project for the Code Test is located in 'DbToConsolePrinter/DbToConsolePrinter.csproj'  
+The project for the Code Test is located in 'DbToConsolePrinter/DbToConsolePrinter/DbToConsolePrinter.csproj'  
 
-Within DbToConsolePrinter/ you can build the project with: 
+Navigate to this directory on the command line, and you can build the project with: 
 
 $(PATH TO MSBUILD.exe) DbToConsolePrinter.csproj /p:Configuration=Release
 
@@ -13,4 +13,4 @@ DbToConsolePrinter.exe
 
 The desired output will print to the console.  
 
-You may of course also load it into VS directly.  
+You may of course also load it into VS directly.
