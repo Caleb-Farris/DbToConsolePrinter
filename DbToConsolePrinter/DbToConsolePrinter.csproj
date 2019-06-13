@@ -79,10 +79,9 @@
     <Content Include="DefaultDb.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="DefaultDb_log.ldf">
+    <None Include="DefaultDb_log.ldf">
       <DependentUpon>DefaultDb.mdf</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
